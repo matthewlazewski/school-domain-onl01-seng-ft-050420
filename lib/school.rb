@@ -22,7 +22,8 @@ class School
   end 
   
   def sort 
-    roster.sort_by { |grade,name| grade } 
+    sorted_hash = {}
+    
   end 
   
 end 
