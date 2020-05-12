@@ -1,11 +1,11 @@
 # code here!
 class School
   
-  self.roster = {}
-
   
   def initialize(name)
     @name = name
+    self.roster = {}
+
   end
   
   
