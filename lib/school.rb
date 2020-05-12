@@ -26,6 +26,7 @@ class School
     roster.each do |x,y|
       sorted_hash[x] = y.sort  
     end 
+    sorted_hash
   end 
   
 end 
