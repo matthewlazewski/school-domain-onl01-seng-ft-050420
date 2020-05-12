@@ -13,6 +13,10 @@ class School
     @roster[grade] << student
   end 
   
- 
-  
+ def grade(level)
+  roster.each do |x,y|
+    if level === x 
+      return y
+    end 
+  end 
 end 
