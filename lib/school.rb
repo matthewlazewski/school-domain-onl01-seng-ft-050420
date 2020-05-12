@@ -1,7 +1,7 @@
 # code here!
 class School
   
-  @@roster = {}
+  self.roster = {}
 
   
   def initialize(name)
