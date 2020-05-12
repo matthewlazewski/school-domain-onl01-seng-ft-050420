@@ -14,7 +14,9 @@ class School
   end 
   
   def grade(level)
-    
+    roster.find do |x,y|
+      if x == level 
+        return y
     end 
   end 
   
