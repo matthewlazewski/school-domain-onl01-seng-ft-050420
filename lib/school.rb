@@ -13,20 +13,6 @@ class School
     @roster[grade] << student
   end 
   
-  def grade(level)
-    roster.find do |x,y|
-      if x == level 
-        return y
-      end 
-    end 
-  end 
-  
-  def sort 
-    sorted_hash = {}
-    roster.each do |x,y|
-      sorted_hash[x] = y.sort  
-    end 
-    sorted_hash
-  end 
+ 
   
 end 
