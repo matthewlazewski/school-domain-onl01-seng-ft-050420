@@ -9,8 +9,9 @@ class School
   end
   
   def add_student(student, grade)
-    @roster[grade].uniq = []
+    @roster[grade] ||= []
     @roster[grade] << student
+    
   end 
   
 end 
