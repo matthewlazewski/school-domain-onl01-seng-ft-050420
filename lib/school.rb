@@ -14,8 +14,7 @@ class School
   end 
   
   def grade(level)
-    @roster.each do |x,y|
-      x[y]
+    
     end 
   end 
   
